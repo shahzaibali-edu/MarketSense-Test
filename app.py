@@ -435,7 +435,7 @@ with tab1:
         fig.add_trace(go.Scatter(
             x=res_df['ds'], y=res_df['y'],
             mode='lines', name='Observed Footfall',
-            connectgaps=False, line=dict(color='white', width=2)
+            connectgaps=False, line=dict(color='black', width=2)
         ))
 
         # Expected
